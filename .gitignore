@@ -1,3 +1,10 @@
+# meson & vscode & git
+.vscode
+.github
+build/
+stage/
+.DS_Store
+
 # Prerequisites
 *.d
 

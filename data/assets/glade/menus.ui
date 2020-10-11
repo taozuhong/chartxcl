@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <menu id="tab_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">P_in Tab</attribute>
+        <attribute name="action">workbench.tab_pin</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Unpi_n Tab</attribute>
+        <attribute name="action">workbench.tab_unpin</attribute>
+        <attribute name="hidden-when">action-disabled</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Close _Other Tabs</attribute>
+        <attribute name="action">workbench.tab_close_other</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Close Tabs to the _Left</attribute>
+        <attribute name="action">workbench.tab_close_left</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Close Tabs to the _Right</attribute>
+        <attribute name="action">workbench.tab_close_right</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">_Close</attribute>
+        <attribute name="action">workbench.tab_close</attribute>
+      </item>
+    </section>
+  </menu>
+  <menu id="value_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">NULL</attribute>
+        <attribute name="action">datagrid.value_null</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Empty string</attribute>
+        <attribute name="action">datagrid.value_empty</attribute>
+      </item>
+      <!--item>
+        <attribute name="label" translatable="yes">SQL function</attribute>
+        <attribute name="action">datagrid.value_function</attribute>
+      </item-->
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Year</attribute>
+        <attribute name="action">datagrid.value_year</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Time</attribute>
+        <attribute name="action">datagrid.value_time</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Date</attribute>
+        <attribute name="action">datagrid.value_date</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Date and Time</attribute>
+        <attribute name="action">datagrid.value_datetime</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Timestamp</attribute>
+        <attribute name="action">datagrid.value_timestamp</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">GUID</attribute>
+        <attribute name="action">datagrid.value_guid</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">GUID without braces</attribute>
+        <attribute name="action">datagrid.value_guid_raw</attribute>
+      </item>
+      <!--item>
+        <attribute name="label" translatable="yes">Geolocation</attribute>
+        <attribute name="action">datagrid.value_geolocation</attribute>
+      </item-->
+    </section>
+  </menu>
+</interface>
