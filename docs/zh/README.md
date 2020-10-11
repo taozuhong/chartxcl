@@ -1,5 +1,5 @@
 ---
-lang: en-US
+lang: zh-CN
 home: true
 heroImage: /chartxcl.png
 actionText: Guide
@@ -7,9 +7,8 @@ actionLink: /document/
 footer: Copyright © 2020-present taozuhong
 ---
 
-
 # 项目目标
-实现项目 [XCL-Charts](https://github.com/xcltapestry/XCL-Charts) 的 GLib/GTK and  移植版本
+用 Vala 实现项目 [XCL-Charts](https://github.com/xcltapestry/XCL-Charts) 的 GLib/GTK 移植版本
 
 # 开发路线
 ## 里程碑 1 ~ 2020.10.31

@@ -4,6 +4,8 @@
 build/
 stage/
 .DS_Store
+node_modules
+.vuepress/dist
 
 # Prerequisites
 *.d

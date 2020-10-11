@@ -1,0 +1,22 @@
+{
+  "name": "chartxcl",
+  "version": "0.1.0",
+  "description": "Port [XCL-Charts](https://github.com/xcltapestry/XCL-Charts) to GLib/GTK with Vala",
+  "main": "index.js",
+  "author": "taozuhong",
+  "license": "LGPL-2.1",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "deploy.sh"
+  },
+  "devDependencies": {
+    "@vssue/api-github-v3": "^1.4.3",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "vue-script2": "^2.1.0",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-flowchart": "^1.4.3",
+    "vuepress-plugin-social-share": "^0.3.2",
+    "vuepress-plugin-zooming": "^1.1.8"
+  }
+}
