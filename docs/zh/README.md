@@ -2,20 +2,8 @@
 lang: zh-CN
 home: true
 heroImage: /chartxcl.png
-actionText: Guide
-actionLink: /document/
-footer: Copyright © 2020-present taozuhong
+actionText: 开发向导
+actionLink: /zh/document/
+footer: LGPL2.1 Licensed | Copyright © 2020-present taozuhong
 ---
 
-# 项目目标
-用 Vala 实现项目 [XCL-Charts](https://github.com/xcltapestry/XCL-Charts) 的 GLib/GTK 移植版本
-
-# 开发路线
-## 里程碑 1 ~ 2020.10.31
-搭建初始框架，实现项目公共基础、第一个图表、编译自动化一条龙服务；
-
-## 里程碑 2 ~ 2020.12.31
-实现第二个至第五个图表
-
-## 里程碑 3 ~ 2021.5.30
-实现第六个至第十个图表

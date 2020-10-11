@@ -24,12 +24,12 @@ module.exports = {
         '/': {
             lang: 'English',
             title: 'chartxcl',
-            description: 'Port [XCL-Charts](https://github.com/xcltapestry/XCL-Charts) to GLib/GTK with Vala',
+            description: 'Port XCL-Charts to GLib/GTK with Vala',
         },
         '/zh/': {
             lang: 'zh-CN',
             title: 'chartxcl',
-            description: '用 Vala 实现项目 [XCL-Charts](https://github.com/xcltapestry/XCL-Charts) 的 GLib/GTK 移植版本'
+            description: '用 Vala 实现 XCL-Charts 的 GLib/GTK 版本'
           }
     },
     themeConfig: {
